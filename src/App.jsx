@@ -3,8 +3,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Characters from './pages/Characters';
-import CharacterDetail from './pages/CharacterDetail';
+import Login from './pages/Login';
+import Info from './pages/Info';
+import InfoDetail from './pages/InfoDetail';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Route path='/home' element={<Home/>} />
       {/* Esta ruta con el * indica que cuando no se ponga bien la ruta que queremos, nos llevara a la pagina home */}
       <Route path='*' element={<Home/>} />
-      <Route path='/characters' element={<Characters/>} />
-      <Route path='/characters/:id' element={<CharacterDetail/>} />
+      <Route path='/info' element={<Info/>} />
+      <Route path='/info/:id' element={<InfoDetail/>} />
+      <Route path='/login' element={<Login/>} />
     </Routes>
   </Router>
 </>

@@ -1,0 +1,12 @@
+
+
+form {
+    display: flex;
+    background-color: #f3d2c1;
+    width: 800px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
