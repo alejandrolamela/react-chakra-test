@@ -2,13 +2,16 @@ import { Button, Flex, FormLabel, Input } from "@chakra-ui/react";
 import React from "react";
 import './Login.css'
 import { useForm } from "react-hook-form";
+import { API } from "../shared/API/api";
 
 const Login = () => {
 
     const {register, handleSubmit} = useForm();
 
-    const login = (datos) => {
+    const login = async(datos) => {
         console.log(datos);
+        const resultado = await API.post('user/login', datos);
+        console.log(resultado);
     }
 
   return (
