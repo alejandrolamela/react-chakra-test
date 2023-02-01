@@ -10,4 +10,4 @@
 
 6.Ahora cerramos el proyecto y lo volvemos a abrir, para refrescar el proyecto y que se acabe de instalar toddo
 
-7.
+7.Ahora creamos las rutas en nuesdtro archivo app.jsx, la arquitectura sera: Router, routes, route
