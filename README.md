@@ -21,3 +21,7 @@
 
 10.Ahora vamos a configurar el long in, vamos a app.jsx
 11. Como queremos enviar el formulario, dentro de nuestra pagina log in metemos un form, y despues importamos el useform
+
+11.Ahora crearemos un navbar, para ello vamos a la pagina de chakra y vamos a components y menu y copiamos y pegamos, es un menu desplegable en un boton, donde podremos seleccionar a la pagina que queremos ir
+
+12.Despues de crear nuestra lista, vamos a hacer que cuando clicks te lleve a la pagina para eso utilizamos los links dentro de cada menu item en app jsx

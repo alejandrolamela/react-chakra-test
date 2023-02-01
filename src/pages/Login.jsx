@@ -22,7 +22,9 @@ const Login = () => {
     caso es username y password */}
         <Input
           h="30px"
+          w='50%'
           borderRadius="4px"
+          backgroundColor='white'
           p="2px"
           {...register('username')}
           border="none"
@@ -32,7 +34,9 @@ const Login = () => {
         <FormLabel>INTRODUCE TU CONTRASEÑA:</FormLabel>
         <Input
           h="30px"
+          w='50%'
           borderRadius="4px"
+          backgroundColor='white'
           p="2px"
           {...register('password')}
           border="none"
